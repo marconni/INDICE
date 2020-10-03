@@ -1,6 +1,6 @@
-#FrontEnd  MVC  Tarea
+# FrontEnd  MVC  Tarea
 
-##INTRODUCCIÓN 
+## INTRODUCCIÓN 
 
 Modelo vista controlador(MVC), es un estilo de arquitectura que separa los datos de una aplicación, la interfaz de usuario y la logica de control en tres componentes distintos.
 
@@ -10,9 +10,9 @@ La Vista, o interfaz de usuario, que compone la información que se envía al cl
 
 El Controlador, que actúa como intermediario entre el Modelo y la Vista, gestionando el flujo de información entre ellos y las transformaciones para adaptar los datos a las necesidades de cada uno.
 
-##MARCO TEÓRICO
+## MARCO TEÓRICO
 
-###¿Que frameworks utiliza el modelo MVC?
+### ¿Que frameworks utiliza el modelo MVC?
 
 Un framework de aplicaciones web es un tipo de framework que permite el desarrollo de sitios web dinámicos, web services (servicios web) y aplicaciones web. El propósito de este tipo de framework es permitir a los desarrolladores construir aplicaciones web y centrarse en los aspectos interesantes, aliviando la típica tarea repetitiva asociada con patrones comunes de desarrollo web. 
 
@@ -56,7 +56,7 @@ Yii es un framework orientado a objetos, software libre, de alto rendimiento1​
 
 Symfony es un framework diseñado para desarrollar aplicaciones web basado en el patrón Modelo Vista Controlador. Para empezar, separa la lógica de negocio, la lógica de servidor y la presentación de la aplicación web. Proporciona varias herramientas y clases encaminadas a reducir el tiempo de desarrollo de una aplicación web compleja.  
 
-###¿Qué ventajas ofrece el modelo MVC?
+### ¿Qué ventajas ofrece el modelo MVC?
 
 *Estas son lgunas de las ventajas que nos ofrece el desarrollo MVC.
 
@@ -74,13 +74,13 @@ Symfony es un framework diseñado para desarrollar aplicaciones web basado en el
 
 *Recomendable para el diseño de aplicaciones web compatibles con grandes equipos de desarrolladores y diseñadores web que necesitan gran control sobre el comportamiento de la aplicación.
         
-###¿Que otros modelos/frameworks existen de patrones de diseño?
+### ¿Que otros modelos/frameworks existen de patrones de diseño?
 
 Los patrones de diseño son el esqueleto de las soluciones a problemas comunes en el desarrollo de software.
 
 Brindan una solución ya probada y documentada a problemas de desarrollo de software que están sujetos a contextos similares. Debemos tener presente los siguientes elementos de un patrón: su nombre, el problema (cuando aplicar un patrón), la solución (descripción abstracta del problema) y las consecuencias (costos y beneficios).
 
-####**Patrones Creacionales**
+#### **Patrones Creacionales**
 
 Como su nombre indica, estos patrones vienen a solucionar o facilitar las tareas de creación o instanciación de objetos.
 Estos patrones hacen hincapié en la encapsulación de la lógica de la instanciación, ocultando los detalles concretos de cada objeto y permitiéndonos trabajar con abstracciones.
@@ -93,7 +93,7 @@ Estos patrones hacen hincapié en la encapsulación de la lógica de la instanci
             
 * **Builder**: Separa la creación de un objeto complejo de su estructura, de tal forma que el mismo proceso de construcción nos puede servir para crear representaciones diferentes.
         
-####**Patrones estructurales**
+#### **Patrones estructurales**
         
 Los patrones estructurales nos ayudan a definir la forma en la que los objetos se componen.
 
@@ -105,7 +105,7 @@ Los patrones estructurales más habituales son:
             
 * **Facade**: Una fachada es un objeto que crea una interfaz simplificada para tratar con otra parte del código más compleja.
 
-####**Patrones comportamentales**
+#### **Patrones comportamentales**
 
 Los patrones comportamentales nos ayudan a definir la forma en la que los objetos interactúan entre ellos.
             
@@ -119,9 +119,9 @@ Algunos de los más conocidos (por citar unos pocos) son:
 
 * **Template Method**: Especifica el esqueleto de un algoritmo, permitiendo a las subclases definir cómo implementan el comportamiento real. 
 
-##Ejemplos
+## Ejemplos
 
-####**index.html**
+#### **index.html**
 
 ```
 <!DOCTYPE html>
@@ -148,7 +148,7 @@ Algunos de los más conocidos (por citar unos pocos) son:
 
 </html>
 ```
-####**script.js**
+#### **script.js**
 
 ```
 function controll($scope) {
@@ -157,4 +157,5 @@ function controll($scope) {
   $scope.obtenerMsj = function() {
     $scope.msj = Math.random();
   }
-}```
+}
+```
